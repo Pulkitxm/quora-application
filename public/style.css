@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration:none ;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    background: transparent;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post{
+    width: 400px;
+    padding: 2em 1em;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+    margin: 1em;
+    box-shadow: 2px 2px 20px #00000073;
+}
+
+.disable{
+    cursor: pointer;
+    user-select: none;
+}
+
+.fix{
+    position: fixed;
+    color: maroon;
+}
+
+.new{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+}
+
+.post p{
+    color: green;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+form input{
+    border: none;
+    border-bottom: solid 5px #000;
+    outline: none;
+    margin: 2em 0 0 0 ;
+}
+
+form label{
+    margin-top: 5em;
+}
+
+form button.submit{
+    width: 10em;
+    height: 4em;
+    margin-top: 3em;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.edit{
+    width: 15px;
+    cursor: pointer;
+
+}
+
+.dlt{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.dlt button{
+    /* background-color: red; */
+    background: transparent;
+    outline: none;
+    border: none;
+    display: inline;
+}
